@@ -1,0 +1,18 @@
+[project]
+name = "ice-lakes"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "javinoram",email = "javinorambl@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "geopandas (>=1.1.2,<2.0.0)",
+    "rasterstats (>=0.20.0,<0.21.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
